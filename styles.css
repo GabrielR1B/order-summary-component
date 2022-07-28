@@ -1,0 +1,81 @@
+body {
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(pattern-background-desktop.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Red Hat Display', sans-serif;
+}
+p{
+    font-size:16px;
+}
+
+.container{
+    margin:3em auto;
+    width:30%;
+    background-color:white;
+    display:grid;
+    grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr; 
+    border-radius:16px;
+    text-align:center;
+    height:725px;
+}
+
+.imagem{
+    width:100%;
+    border-radius:16px 16px 0 0
+}
+
+.titulo {
+    color: hsl(223, 47%, 23%);
+    align-self:end;
+}
+
+.texto {
+    color: hsl(224, 23%, 55%);
+    padding:0 44px ;
+}
+
+.plano {
+    display:flex;
+    background-color: hsl(225, 100%, 98%);
+    margin: 1em 4em;
+    border-radius:12px;
+}
+
+
+.plano_icone{
+    padding:20px;
+}
+
+.plano_texto {
+    font-weight: bold;
+    color: hsl(223, 47%, 23%);
+}
+
+.plano_valor {
+    text-decoration: line-through;
+    color: hsl(224, 23%, 55%);
+}
+
+.plano_mudar {
+    align-self: center;
+    padding-left: 4em;
+    color: hsl(245, 75%, 52%);
+}
+
+.pagamento {
+    background-color: hsl(245, 75%, 52%);
+    margin: 3em 3em;
+    border-radius: 12px;
+    padding:16px;
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+}
+
+.cancelamento {
+    font-weight: bold;
+    color: hsl(224, 23%, 55%);
+    text-decoration:none;
+    align-self:start;
+}
